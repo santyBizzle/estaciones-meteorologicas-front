@@ -38,12 +38,16 @@
     <q-page-container class="bg-grey-1">
       <router-view />
     </q-page-container>
+
+    <!-- Burbuja flotante de Asistente IA Gemini -->
+    <AiChatWidget />
   </q-layout>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 import EssentialLink, { EssentialLinkProps } from 'components/EssentialLink.vue';
+import AiChatWidget from 'components/AiChatWidget.vue';
 import { useAuthStore } from 'src/stores/auth-store';
 import { useRouter } from 'vue-router';
 
