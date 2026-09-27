@@ -10,7 +10,7 @@
             <div>
               <div class="text-subtitle1 text-bold leading-tight">Asistente IA Meteorológico</div>
               <div class="text-caption text-grey-3 flex items-center gap-1">
-                <q-badge color="purple-4" label="Gemini 2.5 Flash" size="xs" />
+                <q-badge color="purple-4" label="Gemini 3.8 Flash" size="xs" />
                 <span>• En vivo</span>
               </div>
             </div>
@@ -40,7 +40,7 @@
           <div v-for="(msg, idx) in messages" :key="idx" class="q-mb-md">
             <q-chat-message
               :name="msg.sender === 'user' ? 'Usuario' : 'Asistente PUYU'"
-              :avatar="msg.sender === 'user' ? undefined : 'https://cdn.quasar.dev/img/avatar.png'"
+              :avatar="msg.sender === 'user' ? undefined : '/icons/chat-logo.png'"
               :stamp="msg.time"
               :sent="msg.sender === 'user'"
               :bg-color="msg.sender === 'user' ? 'indigo-7' : 'grey-2'"
