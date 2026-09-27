@@ -2,7 +2,7 @@
   "name": "estaciones-meteorologicas",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "productName": "PUYU App",
   "author": "Danilo Pilacuan <danilo.pilacuan@gmail.com>",
   "type": "module",
   "private": true,

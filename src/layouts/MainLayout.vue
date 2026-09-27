@@ -81,14 +81,14 @@ const essentialLinks: EssentialLinkProps[] = [
     caption: 'Permite administrar las estaciones de la red',
     icon: 'satellite_alt',
     link: '/estaciones',
-    visible: authStore.user?.rol.id === 1
+    visible: authStore.user?.rol?.id === 1
   },
   {
     title: 'Usuarios',
     caption: 'Permite administrar los usuarios del sistema',
     icon: 'people',
     link: '/usuarios',
-    visible: authStore.user?.rol.id === 1
+    visible: authStore.user?.rol?.id === 1
   },
   {
     title: 'Ayuda',
