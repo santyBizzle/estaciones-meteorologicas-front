@@ -39,7 +39,7 @@
         <q-card-section ref="chatContainer" class="ai-chat-body q-pa-md scroll">
           <div v-for="(msg, idx) in messages" :key="idx" class="q-mb-md">
             <q-chat-message
-              :name="msg.sender === 'user' ? 'Usuario' : 'Asistente IA'"
+              :name="msg.sender === 'user' ? 'Usuario' : 'Asistente PUYU'"
               :avatar="msg.sender === 'user' ? undefined : 'https://cdn.quasar.dev/img/avatar.png'"
               :stamp="msg.time"
               :sent="msg.sender === 'user'"
@@ -51,7 +51,7 @@
           </div>
 
           <div v-if="isLoading" class="flex justify-start q-my-sm">
-            <q-chat-message name="Asistente IA" bg-color="grey-2">
+            <q-chat-message name="PUYU" bg-color="grey-2">
               <q-spinner-dots size="2rem" color="indigo-7" />
             </q-chat-message>
           </div>
@@ -140,7 +140,7 @@ interface Message {
 const messages = ref<Message[]>([
   {
     sender: 'bot',
-    text: 'Bienvenido al Asistente Virtual de Inteligencia Artificial para la Red Meteorológica.\n\nPuedo analizar la telemetría en tiempo real, detectar anomalías técnicas o responder consultas ambientales.',
+    text: 'Bienvenido al Asistente Virtual',
     time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
   },
 ]);
@@ -148,7 +148,7 @@ const messages = ref<Message[]>([
 const quickPrompts = [
   '¿Existe alguna anomalía registrada?',
   'Resumen de temperatura y humedad',
-  'Recomendaciones técnicas del clima',
+  'Recomendaciones sobre el clima',
 ];
 
 function toggleChat() {
