@@ -5,7 +5,7 @@
       <q-toolbar class="bg-gradient-to-r text-white">
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
         <q-toolbar-title class="text-h5 q-pl-md">
-          Consola de Visualización Meteorológica
+          PUYU - Consola de Visualización Meteorológica
         </q-toolbar-title>
 
         <q-btn
@@ -90,13 +90,6 @@ const essentialLinks: EssentialLinkProps[] = [
     link: '/usuarios',
     visible: authStore.user?.rol?.id === 1
   },
-  {
-    title: 'Ayuda',
-    caption: 'Información de uso del sistema',
-    icon: 'help',
-    link: '/ayuda',
-    visible: true
-  }
 ];
 
 const leftDrawerOpen = ref(false);

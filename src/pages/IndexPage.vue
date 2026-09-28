@@ -2,7 +2,7 @@
   <q-page class="q-pa-md">
   <q-card class="q-pa-md">
     <q-card-section>
-      <div class="text-h5">Bienvenido a la Consola de Visualización Meteorológica</div>
+      <div class="text-h5">Bienvenido a PUYU</div>
       <!-- <div class="text-subtitle2">Resumen de los datos actuales:</div> -->
     </q-card-section>
 

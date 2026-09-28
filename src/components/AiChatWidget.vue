@@ -110,10 +110,12 @@
       class="ai-bubble-btn shadow-12 animate-bounce-subtle"
       @click="toggleChat"
     >
-      <q-avatar size="44px" icon="psychology" color="indigo-9" text-color="white" />
+      <q-avatar size="56px">
+        <img src="~assets/puyu-logo.jpeg" alt="Asistente IA" />
+      </q-avatar>
       <q-badge color="purple-7" floating class="q-mr-xs q-mt-xs" label="IA" />
       <q-tooltip anchor="left side" self="center right">
-        Asistente IA Meteorológico (Gemini 2.5)
+        Asistente IA Meteorológico (Gemini 3.8)
       </q-tooltip>
     </q-btn>
   </div>

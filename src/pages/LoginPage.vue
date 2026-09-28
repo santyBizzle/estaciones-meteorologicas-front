@@ -9,7 +9,7 @@
           </div>
           <div class="text-h5 text-bold text-grey-9">Red Meteorológica</div>
           <div class="text-caption text-grey-7 q-mt-xs">
-            Consola de Monitoreo Ambiental y Telemetría
+            PUYU - Consola de Monitoreo Ambiental y Telemetría
           </div>
         </q-card-section>
 
